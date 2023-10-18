@@ -1,1 +1,23 @@
-<html>?</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FLASK API</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div id="root">
+    <h1>Image Recognition API</h1>
+    <div class="header">
+          <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="upload" class="btn">Upload 🎩</label>
+            <input type="file" name="image" accept="image/*" id="upload" required>
+            <label for="submit" class="btn">Submit 🎩</label>
+            <button type="submit" id="submit">Detect Object</button>
+          </form>
+        </div>
+      </form>
+    <div class="hint">*</div>
+  </div>
+</body>
+</html>
