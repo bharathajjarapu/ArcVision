@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 6.25vmax;
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 60px;
+  }
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #ccc 10%, #0000 10%) repeat center/25px 25px;
+  font-size: 0.26rem;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  padding: 0.5rem 1rem 1rem;
+}
+
+.header {
+  margin: 0.5rem auto;
+}
+
+.compress-text {
+  margin-top: 0.2rem;
+}
+.compress-text span {
+  color: indianred;
+}
+
+.btn {
+  display: inline-block;
+  width: 2rem;
+  margin: 0 0.1rem;
+  padding: 0.1rem;
+  border-radius: 5px;
+  border: 2px solid #333;
+  background-color: #f8f7f3;
+  box-shadow: 2px 2px 0 2px #333;
+  cursor: pointer;
+}
+
+input[type=file] {
+  display: none;
+}
+
+button[type=submit] {
+  display: none;
+}
+
+button[type=download] {
+  display: none;
+}
+
+.preview {
+  min-width: 10rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 0.3rem;
+  border: 2px solid #000;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.preview .img-box {
+  flex: 1;
+}
+.preview .title {
+  margin-bottom: 0.1rem;
+}
+.preview img {
+  display: block;
+  max-width: 4.5rem;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.hint {
+  margin-top: 0.2rem;
+  color: #999;
+  font-size: 0.9em;
+}
