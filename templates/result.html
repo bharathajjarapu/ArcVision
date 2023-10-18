@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FLASK API</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div id="root">
+    <h1>Image Recognition API</h1>
+    <div class="header">
+          <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="upload" class="btn">Upload 🎩</label>
+            <input type="file" name="image" accept="image/*" id="upload" required>
+            <label for="submit" class="btn">Submit 🎩</label>
+            <button type="submit" id="submit"></button>
+            <a href="{{ output_image }}" download>
+            <label for="download" class="btn">Download 🎩</label></a>
+          </form>
+        </div>
+    <div class="preview">
+        <div class="img-box">
+            <div class="title">Input Image</div>
+            <img class="preview-before" src="{{ input_image }}" alt="Input Image" width="400">
+        </div>
+        <div class="img-box">
+            <div class="title">Output Image</div>
+            <img class="preview-after" src="{{ output_image }}" alt="Output Image" width="400">
+        </div>
+    </div>
+    <div class="hint">*</div>
+  </div>
+</body>
+</html>
