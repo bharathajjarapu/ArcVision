@@ -48,6 +48,11 @@ pip install flask opencv-contrib-python
 python app.py
 ```
 
+5. Or If you are using PythonAnywhere run the python file in terminal
+```python
+python main.py
+```
+
 ## Usage
 
 1. Open your web browser and go to ```http://127.0.0.1:5000/```.
