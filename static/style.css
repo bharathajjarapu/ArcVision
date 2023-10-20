@@ -47,6 +47,19 @@ body {
   cursor: pointer;
 }
 
+.btn:hover {
+  display: inline-block;
+  width: 2rem;
+  margin: 0 0.1rem;
+  padding: 0.1rem;
+  border-radius: 5px;
+  border: 2px solid #333;
+  background-color: #f8f7f3;
+  box-shadow: 2px 2px 0 2px #333;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 input[type=file] {
   display: none;
 }
