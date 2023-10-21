@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import cv2 #opencv
+import cv2
 import numpy as np
 
 app = Flask(__name__)
