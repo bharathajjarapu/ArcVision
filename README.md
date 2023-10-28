@@ -1,4 +1,4 @@
-# HackerzRec - Image Recognition API
+# ArcVision - Image Recognition API
 Made by Bharath, Abhisehk, & Harsh.
 
 ## Login
@@ -46,7 +46,7 @@ git clone https://github.com/bharathajjarapu/HackerzRec.git
 2. Change Directory.
    
 ```pyton
-cd HackerzRec
+cd ArcVision
 ```
 
 3. Install the Requirements
