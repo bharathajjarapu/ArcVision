@@ -15,7 +15,7 @@ Made by Bharath, Abhisehk, & Harsh.
 
 ## Introduction
 
-HackerzRec is a Flask-based Image Recognition API that allows users to upload images and receive predictions or information about the recognized objects. This project is designed as a hackathon product, providing a simple and efficient way to perform image recognition tasks using pre-trained machine learning model which is finetuned for smaller devices i.e YOLO Lite.
+This is a Flask-based Image Recognition API that allows users to upload images and receive predictions or information about the recognized objects. This project is designed as a hackathon product, providing a simple and efficient way to perform image recognition tasks using pre-trained machine learning model which is finetuned for smaller devices i.e YOLO Lite.
 
 ## Features
 
